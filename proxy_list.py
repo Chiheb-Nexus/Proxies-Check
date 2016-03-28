@@ -61,7 +61,7 @@ class ProxyHandlerStatus():
 
 	def fetch_url_with_proxy(self, url):
 		"""
-		In this part, i created a costum signal TimeoutException and assign a signal.
+		In this part, i created a custom signal TimeoutException and assign a signal.
 		If after 5s there isn't any response from the try ... except boucle 
 		signal will throw an TimeoutException exception.
 		"""
